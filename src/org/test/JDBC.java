@@ -24,6 +24,9 @@ public class JDBC {
 			String n = t.getString("first_name");
 			String n = t.getString("first_name");
 			System.out.println(n);
+			System.out.println("ajith 2 ");
+			System.out.println("ajith 22");
+			
 		}
 		
 		connection.close();
