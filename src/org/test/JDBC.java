@@ -21,7 +21,8 @@ public class JDBC {
 		ResultSet t = u.executeQuery();
 		
 		while(t.next()) {
-			String n = t.getString("last_name");
+			String n = t.getString("first_name");
+			String n = t.getString("first_name");
 			System.out.println(n);
 		}
 		
