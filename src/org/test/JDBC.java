@@ -26,7 +26,9 @@ public class JDBC {
 			System.out.println(n);
 			System.out.println("ajith 2 ");
 			System.out.println("ajith 22");
-			
+            System.out.println("updated value");
+			System.out.println("updated value3");
+
 		}
 		
 		connection.close();
